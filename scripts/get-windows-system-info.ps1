@@ -3,7 +3,7 @@ param()
 
 $ErrorActionPreference = 'Stop'
 
-if (-not [System.OperatingSystem]::IsWindows()) {
+if ($env:OS -ne 'Windows_NT') {
     throw 'This script is intended to run on Windows.'
 }
 
