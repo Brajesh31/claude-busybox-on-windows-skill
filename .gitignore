@@ -1,0 +1,10 @@
+# BusyBox binaries downloaded for local use
+busybox.exe
+busybox64.exe
+busybox64u.exe
+busybox64a.exe
+tools/busybox.exe
+
+# Temporary downloads
+*.download
+*.partial
